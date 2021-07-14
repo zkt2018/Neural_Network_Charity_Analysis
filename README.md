@@ -5,7 +5,7 @@ In this project, using Python TensorFlow library and Deep Learning Neural Networ
 
 In the data preprocessing part of the project:
 * *IS_SUCCESSFUL* column was used as the target;
-* The categorical data columns *APPLICATION_TYPE,  AFFILIATION,  CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT, SPECIAL_CONSIDERATIONS were used as feature variables for the model;
+* The categorical data columns *APPLICATION_TYPE,  AFFILIATION,  CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT, SPECIAL_CONSIDERATIONS* were used as feature variables for the model;
 * Moreover, two identification columns, *EIN* and *NAME* were dropped.
 
 For compiling, training, and evaluating part of the model, different parameters were examined. By modifying the values, the model was trained and tested to get the best performance. However, the Deep Learning Neural Network modeling did not reach the satisfying accuracy which is %75.
